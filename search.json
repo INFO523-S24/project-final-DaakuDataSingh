@@ -1,31 +1,38 @@
 [
   {
-    "objectID": "proposal.html#why-the-odi-dataset",
-    "href": "proposal.html#why-the-odi-dataset",
-    "title": "Proposal title",
-    "section": "Why the ODI dataset",
-    "text": "Why the ODI dataset\n\nimport numpy as np"
+    "objectID": "proposal.html",
+    "href": "proposal.html",
+    "title": "Prediction of ODI Outcomes",
+    "section": "",
+    "text": "The ODI dataset was chosen because it contains data from the last 20 years on historical cricket matches. From this data, we can use a regression model to predict which teams won in the 2023 season. The entire season will be predicted and the the actual 2023 data will be used to cross validate the results and determine the accuracy of the model. ## Why the ODI dataset\n\nimport numpy as np \nimport pandas as pd\nimport git_lfs"
+  },
+  {
+    "objectID": "proposal.html#introduction",
+    "href": "proposal.html#introduction",
+    "title": "Prediction of ODI Outcomes",
+    "section": "",
+    "text": "The ODI dataset was chosen because it contains data from the last 20 years on historical cricket matches. From this data, we can use a regression model to predict which teams won in the 2023 season. The entire season will be predicted and the the actual 2023 data will be used to cross validate the results and determine the accuracy of the model. ## Why the ODI dataset\n\nimport numpy as np \nimport pandas as pd\nimport git_lfs"
   },
   {
     "objectID": "proposal.html#dataset",
     "href": "proposal.html#dataset",
-    "title": "Proposal title",
+    "title": "Prediction of ODI Outcomes",
     "section": "Dataset",
-    "text": "Dataset\nA brief description of your dataset including its provenance, dimensions, etc. as well as the reason why you chose this dataset.\nMake sure to load the data and use inline code for some of this information."
+    "text": "Dataset\n\n#cat foo.pointer | git lfs smudge\npd.read_csv('data/ODI_Match_Data.csv')\n\n\n\n\n\n\n\n\nversion https://git-lfs.github.com/spec/v1\n\n\n\n\n0\noid sha256:7b283547fbd3395d9f03a4aa2d585811e57...\n\n\n1\nsize 168188816"
   },
   {
-    "objectID": "proposal.html#questions",
-    "href": "proposal.html#questions",
-    "title": "Proposal title",
-    "section": "Questions",
-    "text": "Questions\nThe two questions you want to answer."
+    "objectID": "proposal.html#goal",
+    "href": "proposal.html#goal",
+    "title": "Prediction of ODI Outcomes",
+    "section": "Goal",
+    "text": "Goal\nPredicting 2023 ODI match stats using historical data."
   },
   {
     "objectID": "proposal.html#analysis-plan",
     "href": "proposal.html#analysis-plan",
-    "title": "Proposal title",
+    "title": "Prediction of ODI Outcomes",
     "section": "Analysis plan",
-    "text": "Analysis plan\n\nA plan for answering each of the questions including the variables involved, variables to be created (if any), external data to be merged in (if any)."
+    "text": "Analysis plan\n\n\n\nAnalysis Plan"
   },
   {
     "objectID": "index.html",

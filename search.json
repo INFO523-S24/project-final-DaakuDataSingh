@@ -4,21 +4,21 @@
     "href": "proposal.html",
     "title": "Prediction of ODI Outcomes",
     "section": "",
-    "text": "The ODI dataset was chosen because it contains data from the last 20 years on historical cricket matches. From this data, we can use a regression model to predict which teams won in the 2023 season. The entire season will be predicted and the the actual 2023 data will be used to cross validate the results and determine the accuracy of the model. ## Why the ODI dataset\n\nimport numpy as np \nimport pandas as pd\nimport git_lfs"
+    "text": "The ODI dataset was chosen because it contains data from the last 20 years on historical cricket matches. From this data, we can use a regression model to predict which teams won in the 2023 season. The entire season will be predicted and the the actual 2023 data will be used to cross validate the results and determine the accuracy of the model. ## Why the ODI dataset\n\nimport numpy as np \nimport pandas as pd\n#import git_lfs\nfrom git import Repo"
   },
   {
     "objectID": "proposal.html#introduction",
     "href": "proposal.html#introduction",
     "title": "Prediction of ODI Outcomes",
     "section": "",
-    "text": "The ODI dataset was chosen because it contains data from the last 20 years on historical cricket matches. From this data, we can use a regression model to predict which teams won in the 2023 season. The entire season will be predicted and the the actual 2023 data will be used to cross validate the results and determine the accuracy of the model. ## Why the ODI dataset\n\nimport numpy as np \nimport pandas as pd\nimport git_lfs"
+    "text": "The ODI dataset was chosen because it contains data from the last 20 years on historical cricket matches. From this data, we can use a regression model to predict which teams won in the 2023 season. The entire season will be predicted and the the actual 2023 data will be used to cross validate the results and determine the accuracy of the model. ## Why the ODI dataset\n\nimport numpy as np \nimport pandas as pd\n#import git_lfs\nfrom git import Repo"
   },
   {
     "objectID": "proposal.html#dataset",
     "href": "proposal.html#dataset",
     "title": "Prediction of ODI Outcomes",
     "section": "Dataset",
-    "text": "Dataset\n\n#cat foo.pointer | git lfs smudge\npd.read_csv('data/ODI_Match_Data.csv')\n\n\n\n\n\n\n\n\nversion https://git-lfs.github.com/spec/v1\n\n\n\n\n0\noid sha256:7b283547fbd3395d9f03a4aa2d585811e57...\n\n\n1\nsize 168188816"
+    "text": "Dataset\n\nodi_match_data = pd.read_csv('data/ODI_Match_Data.csv')\nodi_match_info = pd.read_csv('data/ODI_Match_info.csv')\n\n\n# Merge the datasets based on the match id\n#merged_data = pd.merge(odi_match_data, odi_match_info, on='match id')\n\n# Print the head of the merged dataset\n#print(merged_data.head())"
   },
   {
     "objectID": "proposal.html#goal",
